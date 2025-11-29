@@ -212,3 +212,19 @@ key.pem
 # Local dev HTTPS certs
 campushub/backend/cert.pem
 campushub/backend/key.pem
+
+# Node
+node_modules/
+campushub/frontend/node_modules/
+
+# Python venv
+campushub/backend/.venv/
+
+# Certs (if not already ignored)
+*.pem
+
+# Vite build + cache folder
+campushub/frontend/.vitest/
+campushub/frontend/.vite/
+dist/
+build/
